@@ -1,0 +1,91 @@
+.sideBarContainer{
+  width: 240px;
+  height: 100%;
+  position: relative;
+  user-select: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sideBarLabel{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+.sideBarLabel b{
+  font-size: 18px;
+  color: #898c91;
+}
+
+.sideBarCategoryHeaderContainer{
+  width: 100%;
+  height: 25px;
+  position: relative;
+}
+
+.sideBarCategoryHeaderContainer:hover .sideBarExtendArrow{
+  filter: invert(46%) sepia(67%) saturate(669%) hue-rotate(149deg) brightness(97%) contrast(107%);
+}
+
+.sideBarCategoryHeaderContainer:hover .sideBarCategory{
+  color: #00a4d6;
+}
+
+.sideBarCategoryContainer{
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 10px;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+  transition: height 0.2s;
+}
+
+.sideBarCategory{
+  font-size: 16px;
+  color: #c1cddc;
+}
+
+.sideBarSubCategories{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  padding-left: 20px;
+  transition: opacity 0.3s;
+}
+
+.sideBarSubCategoryContainer{
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+}
+
+.sideBarSubCategory{
+  font-size: 14px;
+  color: #c1cddc;
+}
+
+.sideBarSubCategoryContainer:hover .sideBarSubCategory{
+  color: #00a4d6;
+}
+
+.sideBarExtendArrow{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.2s;
+  background-image: url('./icons/sideBarArrow.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

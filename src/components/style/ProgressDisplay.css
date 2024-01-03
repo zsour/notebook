@@ -1,0 +1,7 @@
+.progressDisplayContainer{
+  width: 240px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
