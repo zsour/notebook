@@ -14,8 +14,8 @@
   padding-left: 10px;
 }
 
-.sideBarLabel b{
-  font-size: 18px;
+.sideBarLabel p{
+  font-size: 20px;
   color: #898c91;
 }
 
@@ -26,11 +26,11 @@
 }
 
 .sideBarCategoryHeaderContainer:hover .sideBarExtendArrow{
-  filter: invert(46%) sepia(67%) saturate(669%) hue-rotate(149deg) brightness(97%) contrast(107%);
+  filter: invert(32%) sepia(20%) saturate(2256%) hue-rotate(222deg) brightness(92%) contrast(95%);;
 }
 
 .sideBarCategoryHeaderContainer:hover .sideBarCategory{
-  color: #00a4d6;
+  color: #6644aa;
 }
 
 .sideBarCategoryContainer{
@@ -44,6 +44,7 @@
   cursor: pointer;
   margin-bottom: 5px;
   transition: height 0.2s;
+  padding-left: 20px;
 }
 
 .sideBarCategory{
@@ -72,7 +73,7 @@
 }
 
 .sideBarSubCategoryContainer:hover .sideBarSubCategory{
-  color: #00a4d6;
+  color: #6644aa;
 }
 
 .sideBarExtendArrow{

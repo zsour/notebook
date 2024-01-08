@@ -80,7 +80,7 @@ export default function SideBar() {
   return (
     <div className="sideBarContainer">
       <div className="sideBarLabel">
-        <b>Categories</b>
+        <p>Categories</p>
       </div>
       {renderCategories()}
     </div>
