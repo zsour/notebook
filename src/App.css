@@ -10,14 +10,20 @@
   background-color: #1e2129;
   font-family: 'Yantramanav', sans-serif;
   text-align: center;
+  overflow-x: hidden;  
 }
 
 main{
   position: relative;
   width: auto;
+  height: auto;
   white-space: nowrap;
   height: calc(100vh - 120px);
   text-align: left;
   display: inline-block;
   padding-top: 80px;
+}
+
+body{
+  background-color: #1e2129;
 }
